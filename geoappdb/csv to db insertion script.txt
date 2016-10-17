@@ -1,0 +1,59 @@
+LOAD DATA LOCAL INFILE 'C:/geoappdb/attributeType.csv' 
+INTO TABLE tbl_attributetype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/hardnessType.csv' 
+INTO TABLE tbl_hardnesstype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/lusterType.csv' 
+INTO TABLE tbl_lustertype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/phaseType.csv' 
+INTO TABLE tbl_phasetype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/rockType.csv' 
+INTO TABLE tbl_rocktype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/roleType.csv' 
+INTO TABLE tbl_roletype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/termType.csv' 
+INTO TABLE tbl_termtype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/geometryType.csv' 
+INTO TABLE tbl_geometrytype
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/specificGravityType.csv' 
+INTO TABLE tbl_specificGravityType
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE 'C:/geoappdb/streakColorType.csv' 
+INTO TABLE tbl_streakColorType
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES;

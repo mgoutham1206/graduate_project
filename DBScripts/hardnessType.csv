@@ -1,0 +1,6 @@
+HardnessType,HardnessName,HardnessOrder,Min,Max
+1,Fingernail,1,1,2.5
+2,Copper penny,2,2.5,3.5
+3,Steel nail,3,3.5,5.5
+4,Glass plate,4,5.5,7
+5,None,6,0,0

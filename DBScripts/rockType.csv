@@ -1,0 +1,5 @@
+RockTypeID,RockTypeName,RockTypeOrder
+1,Igneous,1
+2,Sedimentary,2
+3,Metamorphic,3
+4,None of these,4
