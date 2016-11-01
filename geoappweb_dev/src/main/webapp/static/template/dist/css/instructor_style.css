@@ -1,0 +1,447 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2015, 7:13:17 PM
+    Author     : S522594
+*/
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+    color: #3f3f3f;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%; 
+    max-height: 100%; 
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+
+#logo {
+    border: none;
+    display: inline;
+}
+#signout{
+    float: end;
+    position: relative;
+    left: 55%;
+    bottom: 5px;
+    display: inline;
+    text-emphasis-color: #fff;
+}
+#signout a{
+    color: white;
+
+}
+#topmenu > ul > li > a:active { 
+    background-color: yellow;
+}
+#topmenu {
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.right{
+    background-color: green;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+.wrong{
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+#topmenu ul { margin: 0; padding: 0; list-style-type: none;}
+#topmenu li { margin: 20px 0 5px 0; display: inline; padding: 0 0 50px 10px }
+#topmenu li a { 
+
+    text-align: center;
+    //display: block; 
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 5px 10px; 
+    background: lightgreen; 
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold
+}
+#topmenu li a:hover { background: #eee; color: #000; }
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #2E627C;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #4D606E;
+    color: #fff;
+}
+#footer p{
+    color: #fff; text-decoration: none; text-align: center;
+}
+
+#main {
+    position: fixed;
+    top: 100px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 230px; 
+    right: 0;
+    overflow: auto; 
+    //background: #fff;
+    text-decoration-color: black;
+}
+.innertube1{
+    margin: 15px;
+    //background: #7599a9;
+}
+#main h1{
+    alignment-adjust: middle;
+    text-align: center;
+    font-weight: normal; 
+    color: #585858;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#main h2 {
+    text-align: left;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+#main h3 {
+    text-align: left;
+    //padding: 10px;
+    color: lightgreen;
+    font-weight: bold;
+}
+#main h4 {
+
+}
+
+#nav {
+    position: absolute; 
+    top: 100px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 0; 
+    width: 230px;
+    overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    background: #e5e5e5;
+    padding-top: 30px;
+}
+
+#Detials-center, #StuList
+{
+    height: 90px;
+    width: 270px;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.savelistbuttons{
+    margin-left:600px;
+    margin-right:auto;
+    margin-top:100px;
+    
+
+
+}
+
+.innertube {
+    margin: 15px; /* Provides padding for the content */
+}
+
+p {
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+}
+
+nav li {
+    margin: 20px 0 5px 0; padding-bottom: 20px; color: #fff; alignment-adjust: central
+}
+
+nav ul a {
+    text-align: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+    font-size: 12px; 
+    display: block; 
+    text-decoration: none; 
+    color: black; 
+    background: #7599a9; 
+    padding: 5px 10px; 
+    color: #fff; 
+    font-weight: bold
+}
+
+/*IE6 fix*/
+* html body{
+    padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+}
+
+* html main{ 
+    height: 100%; 
+    width: 100%;
+    // background-color: #3f3f3f;    
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2015, 7:13:17 PM
+    Author     : S522594
+*/
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+    color: #3f3f3f;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%; 
+    max-height: 100%; 
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+
+#logo {
+    border: none;
+    display: inline;
+}
+#signout{
+    float: end;
+    position: relative;
+    left: 55%;
+    bottom: 5px;
+    display: inline;
+    text-emphasis-color: #fff;
+}
+#signout a{
+    color: white;
+
+}
+#topmenu > ul > li > a:active { 
+    background-color: yellow;
+}
+#topmenu {
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+.right{
+    background-color: green;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+
+.right_gray{
+    background-color: gray;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+
+.wrong_gray{
+    background-color: gray;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+.wrong{
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    border: solid;
+    border-color: silver;
+}
+#topmenu ul { margin: 0; padding: 0; list-style-type: none;}
+#topmenu li { margin: 20px 0 5px 0; display: inline; padding: 0 0 50px 10px }
+#topmenu li a { 
+
+    text-align: center;
+    //display: block; 
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 5px 10px; 
+    background: lightgreen; 
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold
+}
+#topmenu li a:hover { background: #eee; color: #000; }
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #2E627C;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+    overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #4D606E;
+    color: #fff;
+}
+#footer p{
+    color: #fff; text-decoration: none; text-align: center;
+}
+
+#main {
+    position: fixed;
+    top: 100px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 230px; 
+    right: 0;
+    overflow: auto; 
+    //background: #fff;
+    text-decoration-color: black;
+}
+.innertube1{
+    margin: 15px;
+    //background: #7599a9;
+}
+#main h1{
+    alignment-adjust: middle;
+    text-align: center;
+    font-weight: normal; 
+    color: #585858;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+#main h2 {
+    text-align: left;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+}
+#main h3 {
+    text-align: left;
+    //padding: 10px;
+    color: lightgreen;
+    font-weight: bold;
+}
+#main h4 {
+
+}
+
+#nav {
+    position: absolute; 
+    top: 100px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 0; 
+    width: 230px;
+    overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    background: #e5e5e5;
+    padding-top: 30px;
+}
+
+#Detials-center, #StuList
+{
+    height: 90px;
+    width: 270px;
+
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.savelistbuttons{
+    margin-left:600px;
+    margin-right:auto;
+    margin-top:100px;
+    
+
+
+}
+
+.innertube {
+    margin: 15px; /* Provides padding for the content */
+}
+
+p {
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+}
+
+nav li {
+    margin: 20px 0 5px 0; padding-bottom: 20px; color: #fff; alignment-adjust: central
+}
+
+nav ul a {
+    text-align: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px; 
+    font-size: 12px; 
+    display: block; 
+    text-decoration: none; 
+    color: black; 
+    background: #7599a9; 
+    padding: 5px 10px; 
+    color: #fff; 
+    font-weight: bold
+}
+
+/*IE6 fix*/
+* html body{
+    padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+}
+
+* html main{ 
+    height: 100%; 
+    width: 100%;
+    // background-color: #3f3f3f;    
+}

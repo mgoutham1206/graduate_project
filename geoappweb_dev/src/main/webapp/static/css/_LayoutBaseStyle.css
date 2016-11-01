@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 3, 2016, 8:07:06 AM
+    Author     : s522581
+*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /*background-color: aqua;*/
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    border: solid;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-width: 1px 1px 0 0px;
+    margin: 0 5px 0 0;
+    background-color: #7c482e;
+    color: orange;
+    /*opacity:  0.7;*/
+}
+
+nav li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+/*    opacity: 2;*/
+    font-weight: 400;
+    font-size: x-large;
+}
+
+nav li a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#content {
+    border: 1px solid;
+}
+
+#selected {
+    padding-bottom: 3px; 
+    background: #1ABC9C;
+    color: yellow;
+}
+
+
+#selected a {
+    color: white;
+}
+
+#selected a:hover {
+    font-weight: normal;
+}
+
+
+//************************** Grids for Body left pane and Center body START *********************
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 1% 0 1% 0.1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 19.95%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col { 
+        margin: 1% 0 1% 0%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+//************************** Grids for Body left pane and Center body END *********************
+
+#bodyCenter{
+    padding-bottom:60px;
+}
+
+div#bottomdiv {
+
+
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+}
+
+div#topdiv{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+}
+
+div a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+#logo{
+    float: left;
+}
+
+#titleandcaption{
+    float: none;
+    width: 130px;
+}
